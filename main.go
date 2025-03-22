@@ -39,6 +39,6 @@ func main() {
 		}
 		tmpl.Execute(w, data)
 	})
-	log.Println("Listening on :8080...")
-	http.ListenAndServe(":8080", nil)
+	log.Println("Listening on :3000...")
+	http.ListenAndServe(":3000", nil)
 }
